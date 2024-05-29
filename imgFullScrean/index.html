@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>galerie</title>
+</head>
+<body >
+<div class="slider">
+  <div class="slider-items">
+    <img
+      class="slider-item slider-item-left slider-item-blurred"
+      src="https://picsum.photos/id/654/1280/720"
+      alt="..."
+    />
+    <img
+      class="slider-item slider-item-center"
+      src="https://picsum.photos/id/579/1280/720"
+      alt="..."
+    />
+    <img
+      class="slider-item slider-item-right slider-item-blurred"
+      src="https://picsum.photos/id/683/1280/720"
+      alt="..."
+    />
+  </div>
+        <div class="slider-controls">
+          <span class="bx bxs-chevron-left prev" onclick="changeSlide(-1)"></span>
+          <span class="bx bxs-chevron-right next" onclick="changeSlide(1)"></span>
+        </div>
+      
+        <div class="slider-indicators">
+          <span onclick="moveTo(1)"></span>
+          <span onclick="moveTo(2)"></span>
+          <span onclick="moveTo(3)"></span>
+        </div>
+      
+        <!-- <div class="slider-content">
+        </div> -->
+
+  <div class="fullscreen-button" onclick="toggleFullScreen()">
+    <span class="bx bx-fullscreen"></span>
+
+      </div>
+      
+    <script src="index.js"></script>
+
+    </body>
+</html>
